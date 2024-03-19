@@ -1,0 +1,236 @@
+@import url('bootstrap.min.css');
+@import url('all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html{
+    font-size: 1rem;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    padding: 0.75rem 0;
+    color: #000;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    border-bottom: 1px #e5e5e5 solid;
+
+}
+h2 span{
+    font-weight: 400;
+}
+
+
+
+/*Style for header*/
+header .top-header{
+    border-bottom: 1px solid #efefef;
+}
+header .top-header .nav-link{
+    font-size: 0.625rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-right: 1px solid #efefef;
+    color: #858585;
+    display: inline-block;
+    padding: 11px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header .middle-part{
+    margin-top: 1.5rem;
+    margin-bottom: 1.225rem;
+}
+
+header .middle-part .container .row .col-sm-2 .logo{
+    margin-top: 0.3rem;
+  
+    
+}
+
+
+header .middle-part .container .row .col-sm-8 .nav .nav-link{
+    padding: 0.625rem 0.4375rem 0.4375rem 0.4375rem;
+    color: #858585;
+    font-size: 0.625rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+header .middle-part .container .row .col-sm-8 .nav .nav-link .form-control{
+    border-radius: 0;
+    background-color: #f0f0f0;
+    padding: 0.7rem 1.8rem 0.7rem 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+}
+header .middle-part .container .row .col-sm-8 .nav .nav-link .form-control::placeholder{
+    color: #9a8e8e;
+}
+
+header .middle-part .container .row .col-sm-8 .nav .nav-link .input-group-text{
+    border-radius: 0;
+    background-color: #ef4749;
+    border-color: transparent;
+    color: #fff;
+    padding: .375rem 1rem;
+}
+
+
+
+header .middle-part .container .row .col-sm-8 .nav .about-us{
+    margin-top: 0.7rem;
+    margin-right: 0.6rem;
+}
+header .middle-part .container .row .col-sm-8 .nav .nav-link .btn-danger{
+    background-color: #ef4749;
+    border-color: transparent;
+}
+
+header .middle-part .container .row .col-sm-8 .nav .nav-link .btn{
+    border-radius: 0;
+    color: #fff;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+    line-height: 2.1rem;
+    margin: 0;
+    padding: 0.3rem 3.5rem 0.3rem 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+header .bg-body-tertiary{
+    background-color: #4a4a4a !important;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+header .navbar .container .navbar-nav .nav-item{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+header .navbar .container .navbar-nav .nav-link{
+    font-size: 0.7rem;
+    padding: 11px 0 7px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: all 0.3s cubic-bezier(0.8, 0, 0, 1);
+    border-bottom: 1px solid transparent;
+    margin-top: 0.15rem;
+    margin-bottom: 0.3rem;
+}
+
+header .navbar .container .navbar-nav .nav-item:hover{
+    background-color: #f8f8f8;
+}
+
+header .navbar .container .navbar-nav .nav-item:hover .nav-link{
+    color: #6c6c6c;
+    border-bottom: 1px solid #d5cdcd;
+    margin-bottom: 0.3rem;
+}
+
+/*Style for Carousel*/
+
+.carousel-item {
+    transition: transform 2s ease-in-out;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+    transition: opacity 0s 2s;
+}
+.caption{
+    font-size: 1.5rem;
+   font-weight: 700;
+   color: #ef4749;
+
+ }
+ /*Style for banner*/
+ .sub-caption{
+    font-size: 3.5rem;
+    font-weight: 700;
+ 
+ }
+ .d-flex {
+    place-content:center;
+    margin-top: 1.0rem;
+    margin-bottom: 1.0rem;
+ }
+/*Style for Best Sellers*/
+.products .card{
+    border-color: transparent;
+}
+.products .card .card-body .card-title a{
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    color: #000;
+}
+
+.products .card .card-body .card-title a:hover{
+    color: #ef4749;
+}
+
+.products .card .card-body .rating i{
+    color: #fafa02;
+}
+
+.products .card .card-body .price {
+    font-weight: bold;
+    color: #000;
+    font-size: 0.875rem;
+}
+
+.products .card .card-body p .btn{
+    padding: 8px 12px;
+    font-size: 11px ;
+    border: 1px solid #d1d1d1;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #666;
+    font-weight: bold;
+    transition: all 0.3s linear;
+    text-transform: uppercase;
+    background: #fff;
+    border-radius: 0;
+}
+
+.products .card .card-body p .btn:hover{
+    background: #ef4749;
+    color: #fff;
+    border: 1px #ef4749 solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Quieries*/
+@media (max-width: 320px){
+    html{
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 575.99px) {  }
